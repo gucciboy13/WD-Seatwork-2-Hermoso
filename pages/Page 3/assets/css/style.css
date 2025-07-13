@@ -1,0 +1,55 @@
+
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: 'Verdana', sans-serif;
+  background: url('../img/amsbg.jpeg') center center / cover no-repeat fixed;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.card {
+  background: white;
+  max-width: 450px;
+  width: 100%;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+  padding: 2rem;
+  text-align: center;
+}
+.beer-img {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 1.8rem auto;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.beer-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #8c6249;
+  letter-spacing: 3px;
+}
+p {
+  font-weight: 500;
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #555;
+}
+footer {
+  position: fixed;
+  bottom: 12px;
+  width: 100%;
+  text-align: center;
+  font-size: 0.85rem;
+  color: #aaa;
+}
